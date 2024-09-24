@@ -1,0 +1,48 @@
+body:
+  - attributes:
+      value: |
+        Some general tips:
+
+        * Is this really a problem?
+        * Is this a problem here?
+    type: markdown
+  - attributes:
+      label: Initial checklist
+      options:
+        - label: I read the [support docs](https://github.com/redotjs/.github/blob/main/support.md)
+          required: true
+        - label: I read the [contributing guide](https://github.com/redotjs/.github/blob/main/contributing.md)
+          required: true
+        - label: I agree to follow the [code of conduct](https://github.com/redotjs/.github/blob/main/code-of-conduct.md)
+          required: true
+        - label: I searched [issues](https://github.com/search?q=user%3Aredotjs&type=Issues) and couldn’t find anything (or linked relevant results below)
+          required: true
+    id: initial-checklist
+    type: checkboxes
+  - attributes:
+      description: Please describe the problem you are trying to solve here.
+      label: Problem
+    id: problem
+    type: textarea
+    validations:
+      required: true
+  - attributes:
+      description: |
+        What should happen?
+        Please describe the desired behavior.
+      label: Solution
+    id: solution
+    type: textarea
+    validations:
+      required: true
+  - attributes:
+      description: |
+        What are the alternative solutions?
+        Can this be solved in a different way?
+      label: Alternatives
+    id: alternatives
+    type: textarea
+    validations:
+      required: true
+description: Suggest an idea
+name: 🚀 Feature request

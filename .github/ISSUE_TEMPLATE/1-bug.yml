@@ -1,0 +1,116 @@
+body:
+  - attributes:
+      value: |
+        Some general tips:
+
+        * Is this really a problem?
+        * Is this a problem here?
+        * Can this be solved in a different way?
+    type: markdown
+  - attributes:
+      label: Initial checklist
+      options:
+        - label: I read the [support docs](https://github.com/redotjs/.github/blob/main/support.md)
+          required: true
+        - label: I read the [contributing guide](https://github.com/redotjs/.github/blob/main/contributing.md)
+          required: true
+        - label: I agree to follow the [code of conduct](https://github.com/redotjs/.github/blob/main/code-of-conduct.md)
+          required: true
+        - label: I searched [issues](https://github.com/search?q=user%3Aredotjs&type=Issues) and couldn’t find anything (or linked relevant results below)
+          required: true
+    id: initial-checklist
+    type: checkboxes
+  - attributes:
+      description: |
+        Please test using the latest version of the relevant packages to make
+        sure your issue has not already been fixed.
+      label: Affected packages and versions
+    id: affected-versions
+    type: input
+    validations:
+      required: true
+  - attributes:
+      description: |
+        Link to repository or sandbox with runnable example of the issue.
+        Alternatively, use the next section *Steps to reproduce*.
+      label: Link to runnable example
+    id: runnable-example
+    type: input
+    validations:
+      required: false
+  - attributes:
+      description: |
+        How did this happen?
+        Please provide a [minimal, reproducible example](https://stackoverflow.com/help/minimal-reproducible-example).
+      label: Steps to reproduce
+    id: steps-to-reproduce
+    type: textarea
+    validations:
+      required: true
+  - attributes:
+      description: What should happen?
+      label: Expected behavior
+    id: expected-behavior
+    type: textarea
+    validations:
+      required: true
+  - attributes:
+      description: What happens instead?
+      label: Actual behavior
+    id: actual-behavior
+    type: textarea
+    validations:
+      required: true
+  - attributes:
+      label: Affected runtime and version
+      description: |
+        What runtime are you using (such as `node@18.2`, `deno@1.12.2`)?
+        Please test using the latest version.
+    id: runtime
+    type: input
+    validations:
+      required: true
+  - attributes:
+      description: |
+        What package manager are you using (such as `npm@8.9.0`)?
+        Please test using the latest version.
+      label: Affected package manager and version
+    id: package-manager
+    type: input
+    validations:
+      required: false
+  - attributes:
+      description: |
+        What operating system are you using (e.g., `macOS Monterey 12.4`)?
+        Please test using the latest version.
+      label: Affected OS and version
+    id: operating-system
+    type: input
+    validations:
+      required: false
+  - attributes:
+      description: |
+        What, if any, tools are used to build or bundle the project?
+        Please test using the latest version.
+      label: Build and bundle tools
+      multiple: true
+      options:
+        - Astro
+        - CRA (Create React App)
+        - Docusaurus
+        - Gatsby
+        - Next.js
+        - Parcel
+        - Remix
+        - Rollup
+        - Vite
+        - esbuild
+        - swc
+        - webpack
+        - other (please specify in steps to reproduce)
+    id: build-tools
+    type: dropdown
+    validations:
+      required: false
+description: Describe a bug with a project
+name: 🐛 Bug report
