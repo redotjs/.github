@@ -18,19 +18,25 @@ https://github.com/redotjs/.github/blob/master/contributing.md
 
 Describe your issue here.
 
-This is *not* a place to ask questions.  For that, go to [spectrum](https://spectrum.chat/unified/redot)
+This is *not* a place to ask questions.
+For that, go to [spectrum](https://spectrum.chat/unified/redot)
 
 ### Your environment
 
-*   **OS**: <!-- Name and version of operating system -->
-*   **Packages**: <!-- Names and version of required packages -->
-*   **Env**: <!-- Version of node, npm, yarn, or names and versions of browser -->
+* **OS**: <!-- Name and version of operating system -->
+* **Packages**: <!-- Names and version of required packages -->
+* **Env**: <!-- Version of node, npm, yarn, or names and versions of browser -->
 
 ### Steps to reproduce
 
-Tell us how to reproduce this issue.  Please provide a working and simplified example.
+Tell us how to reproduce this issue.
+Please provide a working and simplified example.
 
-🎉 BONUS POINTS for creating a [minimal reproduction](https://stackoverflow.com/help/mcve) and uploading it to GitHub.  This will get you the fastest support.  🎉
+🎉 BONUS POINTS for creating a
+[minimal reproduction](https://stackoverflow.com/help/mcve) and uploading it to
+GitHub.
+This will get you the fastest support.
+🎉
 
 ### Expected behaviour
 

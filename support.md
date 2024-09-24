@@ -4,7 +4,8 @@
 > By interacting with this repository, organisation, or community you agree to
 > abide by its terms.
 
-Hi!  👋
+Hi!
+👋
 We’re excited that you’re using **redot** and we’d love to help.
 To help us help you, please read through the following guidelines.
 
@@ -13,34 +14,34 @@ next to their day job; you are not entitled to free customer service.
 
 ## Table of Contents
 
-*   [Questions](#questions)
-    *   [Asking quality questions](#asking-quality-questions)
-*   [Contributions](#contributions)
-*   [License](#license)
+* [Questions](#questions)
+  * [Asking quality questions](#asking-quality-questions)
+* [Contributions](#contributions)
+* [License](#license)
 
 ## Questions
 
 Please chat and ask questions on [spectrum][chat]!
 Jump in there and lurk, talk to us, and help others.
 
-*   [**unified**](https://spectrum.chat/unified/unified)
-    — Topics relating to [**unified**][unified] in general
-*   [**redot**](https://spectrum.chat/unified/redot)
-    — Topics relating to the [**redot**][redot] ecosystem, Graphviz,
-    and [**dotast**][dotast]
-*   [**vfile**](https://spectrum.chat/unified/vfile)
-    — Topics relating to [**vfile**][vfile]: virtual files
-*   [**syntax-tree**](https://spectrum.chat/unified/syntax-tree)
-    — Topics relating to [**syntax-tree**][syntax-tree] and [**unist**][unist]
-*   [**remark**](https://spectrum.chat/unified/remark)
-    — Topics relating to the [**remark**][remark] ecosystem, markdown,
-    and [**mdast**][mdast]
-*   [**rehype**](https://spectrum.chat/unified/rehype)
-    — Topics relating to the [**rehype**][rehype] ecosystem, HTML,
-    and [**hast**][hast]
-*   [**retext**](https://spectrum.chat/unified/retext)
-    — Topics relating to the [**retext**][retext] ecosystem, natural language,
-    and [**nlcst**][nlcst]
+* [**unified**](https://spectrum.chat/unified/unified)
+  — Topics relating to [**unified**][unified] in general
+* [**redot**](https://spectrum.chat/unified/redot)
+  — Topics relating to the [**redot**][redot] ecosystem, Graphviz,
+  and [**dotast**][dotast]
+* [**vfile**](https://spectrum.chat/unified/vfile)
+  — Topics relating to [**vfile**][vfile]: virtual files
+* [**syntax-tree**](https://spectrum.chat/unified/syntax-tree)
+  — Topics relating to [**syntax-tree**][syntax-tree] and [**unist**][unist]
+* [**remark**](https://spectrum.chat/unified/remark)
+  — Topics relating to the [**remark**][remark] ecosystem, markdown,
+  and [**mdast**][mdast]
+* [**rehype**](https://spectrum.chat/unified/rehype)
+  — Topics relating to the [**rehype**][rehype] ecosystem, HTML,
+  and [**hast**][hast]
+* [**retext**](https://spectrum.chat/unified/retext)
+  — Topics relating to the [**retext**][retext] ecosystem, natural language,
+  and [**nlcst**][nlcst]
 
 ### Asking quality questions
 
@@ -55,16 +56,16 @@ questions to understand what you are hoping to achieve.
 
 Spending the extra time up front can help save everyone time in the long run.
 
-*   Try to define what you need help with:
-    *   Is there something in particular you want to do?
-    *   What problem are you encountering and what steps have you taken to try
-        and fix it?
-    *   Is there a concept you’re not understanding?
-*   Learn about the [rubber duck debugging method][rubberduck]
-*   Avoid falling for the [XY problem][xy]
-*   Search on GitHub and Spectrum to see if a similar question has been asked
-*   If possible, provide sample code, a [CodeSandbox][], or a video
-*   The more time you put into asking your question, the better we can help you
+* Try to define what you need help with:
+  * Is there something in particular you want to do?
+  * What problem are you encountering and what steps have you taken to try
+    and fix it?
+  * Is there a concept you’re not understanding?
+* Learn about the [rubber duck debugging method][rubberduck]
+* Avoid falling for the [XY problem][xy]
+* Search on GitHub and Spectrum to see if a similar question has been asked
+* If possible, provide sample code, a [CodeSandbox][], or a video
+* The more time you put into asking your question, the better we can help you
 
 ## Contributions
 
